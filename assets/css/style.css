@@ -1,0 +1,190 @@
+#my-contact li {
+margin-bottom:10px;
+}
+
+#my-contact ul {
+margin-bottom:20px;
+}
+
+#container {
+min-height:calc(100vh-264px);
+}
+
+#page {
+float:left;
+width:960px;
+}
+
+#logo {
+background-color:#4aaaa5;
+color:#fff;
+display:block;
+float:left;
+font-family:Georgia;
+font-size:30px;
+font-weight:700;
+line-height:90px;
+padding:0 40px;
+text-decoration:none;
+}
+
+#logo:hover,input[type=submit]:hover {
+background:#5e7f7e;
+}
+
+* {
+box-sizing:border-box;
+}
+
+.module {
+background-color:#fff;
+border:1px solid #ddd;
+padding:30px;
+}
+
+.picture {
+float:left;
+margin-right:30px;
+}
+
+.portfolio {
+float:left;
+margin:20px 0 25px;
+overflow:auto;
+position:relative;
+width:274px;
+}
+
+.portfolio h3 {
+background:#4aaaa5;
+border-bottom:0;
+bottom:20px;
+color:#fff;
+font-family:Georgia;
+font-size:22px;
+font-weight:300;
+line-height:30px;
+margin-bottom:0;
+padding:15px;
+position:absolute;
+text-align:center;
+width:100%;
+}
+
+.portfolio img {
+border:0 none;
+opacity:0.8;
+width:100%;
+}
+
+.portfolio:nth-child(even) {
+margin-right:40px;
+}
+
+.wrapper {
+clear:both;
+margin:0 auto;
+overflow:hidden;
+width:960px;
+}
+
+body {
+background-image:url(../images/gray_jean.png);
+background-repeat:repeat;
+color:#777;
+font-family:Arial;
+font-size:18px;
+line-height:28px;
+}
+
+footer {
+background-color:#777;
+border-top:8px solid #4aaaa5;
+color:#ccc;
+font-size:12px;
+line-height:90px;
+margin-top:40px;
+text-align:center;
+}
+
+h1 {
+border-bottom:2px solid #ccc;
+font-size:30px;
+}
+
+h1,h2 {
+color:#4aaaa5;
+font-family:Georgia;
+font-weight:700;
+margin-bottom:30px;
+padding-bottom:30px;
+text-align:left;
+}
+
+h2 {
+border-bottom:1px solid #ccc;
+font-size:22px;
+margin-bottom:20px;
+padding-bottom:20px;
+}
+
+header {
+background-color:#fff;
+border-bottom:2px solid #ccc;
+margin-bottom:40px;
+}
+
+input[type=submit] {
+background:#4aaaa5;
+border:0 none;
+color:#fff;
+cursor:pointer;
+font-size:18px;
+padding:10px 30px;
+}
+
+input[type=text],input[type=email],textarea {
+border:1px solid #ddd;
+font-size:14px;
+height:35px;
+padding:0 10px;
+}
+
+label,input[type=text],input[type=email],textarea {
+display:block;
+width:100%;
+}
+
+nav {
+float:right;
+}
+
+nav a:hover {
+color:#5e7f7e;
+}
+
+nav ul {
+display:block;
+}
+
+nav ul li {
+display:inline-block;
+line-height:90px;
+}
+
+nav ul li a {
+border-left:1px solid #ddd;
+color:#999;
+line-height:22px;
+margin-left:20px;
+padding-left:20px;
+text-decoration:none;
+}
+
+nav ul li:first-child a {
+border-left:0;
+}
+
+textarea {
+height:200px;
+}
